@@ -1,0 +1,92 @@
+  /* CSS styles for the elements */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.input{
+    height: 100px;
+}
+
+.item {
+    margin: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.show {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.carBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.nameProduct {
+    margin: 0;
+}
+
+.priceProduct {
+    margin: 5px 0;
+   
+}
+
+.buy {
+    padding: 10px 20px;
+
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Additional CSS styles */
+h1 {
+    font-size: 18px;
+    margin: 5px 0;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#addItem{
+    width: 50%;
+    display: block;
+    height: 60px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}

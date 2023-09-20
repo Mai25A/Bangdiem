@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./ProductStyle.css">
+    <script language="javascript" type="text/javascript" src="./Product.js"></script>
+    <title>Product</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item proName">
+            <label for="input1">Product name</label>
+            <input type="text" id="input1">
+        </div>
+        <div class="item quantyti">
+            <label for="input2">Quantity</label>
+            <input id="input2" value="0" type="number" min="0">
+        </div>
+        <div class="item price">
+            <label for="input3">Unit price</label>
+            <input type="number" value="0" id="input3" min="0">
+        </div>
+        <div class="item discount">
+            <label for="input4">Discount</label>
+            <input type="number" value="0" min="0" id="input4">
+        </div>
+        <div class="item">
+            <button onclick="sell()">Sell</button>
+            <button onclick="Cancle()">Cancel</button>
+        </div>
+        <table id="table">
+            <tr id="thead_row">
+                <th>ID</th>
+                <th>Product name</th>
+                <th>Quantity</th>
+                <th>Unit price</th>
+                <th>Discount</th>
+                <th>Subtotal</th>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
